@@ -1,0 +1,26 @@
+.bg-img{
+    height: 70vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.transparent-input {
+    background-color: transparent !important;
+    border: 1px solid #ced4da; /* Add a border to the input for visibility */
+    color: #fff; /* Set text color to white or a suitable color */
+}
+
+.text-font{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400 !important;
+}
+
+.title-font{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+}
